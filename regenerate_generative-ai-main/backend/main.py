@@ -18,7 +18,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World I'm Prudent NGAIPERA-DONG"}
 
 @app.post("/generate/")
 async def generate(body: dict):
